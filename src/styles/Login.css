@@ -1,0 +1,76 @@
+
+.containerlog {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .containerlog > .formlog {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    margin-bottom: 40px;
+  }
+  
+  
+  .plog {
+    color: #F9E2AF;
+  }
+  .containerlog h1{
+    text-align: center; 
+    color: #F9E2AF;
+}
+.textlabellog{
+    color: #F9E2AF;
+    font-size: 30px;
+}
+.inputlog{
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.btnlog{
+    width: 200px;
+    background-color:#F9E2AF ;
+    margin-top: 20px;
+    margin-left: 170px;
+    font-size: 25px;
+    position: relative;
+    left: -90px;
+    color: #562B08;
+}
+.btnlog:hover{
+    background-color: #FFE194;
+}
+.btnlog:active{
+    color: #FFE194;
+}
+.forgotlink{
+    position: relative;
+    text-align: center;
+    color: #F9E2AF;
+
+}
+.signuplink{
+    color: #F9E2AF;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+::placeholder{
+    opacity:0.3;
+}
+.messagesuccess{
+    color:#F9E2AF;
+    font-size: 30px;
+    text-align: center;
+}
+pre{
+    display: none;
+}

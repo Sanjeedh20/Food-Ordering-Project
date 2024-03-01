@@ -1,0 +1,49 @@
+.containerfor{
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+.containerfor > .formfor {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+  }
+.formfor h1{
+    text-align: center;
+    color: #F9E2AF;
+}
+.textlabelget{
+    color: #F9E2AF;
+}
+.inputget input{
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.btnget{
+    width: 200px;
+    background-color:#F9E2AF ;
+    margin-top: 20px;
+    margin-left: 170px;
+    font-size: 25px;
+    position: relative;
+    left: -90px;
+    color: #562B08;
+}
+.btnget:hover{
+    background-color: #FFE194;
+}
+.textlabelget{
+    color: #F9E2AF;
+}
+
+.btnget:active{
+    color:#F9E2AF;
+}

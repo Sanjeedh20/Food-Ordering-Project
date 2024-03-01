@@ -1,0 +1,69 @@
+.sign-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containersign {
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+  }
+  .containersign > .formsign {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    margin-top: 5px;
+  }
+  .plog {
+    color: #F9E2AF;
+  }
+  .containersign h1{
+    text-align: center; 
+    color: #F9E2AF;
+}
+.textlabelsign{
+    color: #F9E2AF;
+    font-size: 30px;
+}
+.inputsign{
+    width: 100%;
+    font-size: 1.1em;
+    border-radius: 8px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+.btnsign{
+    width: 200px;
+    background-color:#F9E2AF ;
+    margin-top: 20px;
+    margin-left: 110px;
+    font-size: 25px;
+    position: relative;
+    color: #562B08;
+}
+.btnsign:hover{
+    background-color: #FFE194;
+}
+.btnsign:active{
+    color: #FFE194;
+}
+
+::placeholder{
+    opacity:0.3;
+}
+.check{
+    width: 30px;
+    margin-left: 200px;
+}
+.check1{
+    text-align: center;
+    color: #F9E2AF;
+}
